@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.recent-match-container {
+  background-color: #0f172a;
+  padding: 13px;
+  padding-bottom: 0px;
+  border-radius: 16px;
+  width: 122px;
+  color: white;
+  margin: 15px 9px 15px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recent-img {
+  width: 40px;
+}
+.recent-team {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+}
+.recent-match-result {
+  font-size: 10px;
+  text-align: center;
+}
+.recent-match-status {
+  font-size: 13px;
+}
+.won {
+  color: #18ed66;
+}
+.lost {
+  color: #e31a1a;
+}
+
+@media screen and (min-width: 768px) {
+  .recent-match-container {
+    background-color: #0f172a;
+    padding: 28px;
+    padding-bottom: 0px;
+    border-radius: 18px;
+    width: 260px;
+    margin: 15px 16px 15px 16px;
+  }
+  .recent-img {
+    width: 90px;
+  }
+  .recent-team {
+    font-size: 26px;
+    text-align: center;
+    font-weight: 500;
+  }
+  .recent-match-result {
+    font-size: 14px;
+    text-align: center;
+  }
+  .recent-match-status {
+    font-size: 18px;
+  }
+}
